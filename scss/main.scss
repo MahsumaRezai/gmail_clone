@@ -19,10 +19,31 @@
     border-radius: 10px;
 
 }
+
+.log {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
 .title {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
+    gap: 20px;
+}
+.text {
+    font-family: sans-serif;
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: grey;
+
+
+}
+.text-two {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: grey;   
 }
