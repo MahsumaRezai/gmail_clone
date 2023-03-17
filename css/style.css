@@ -12,11 +12,26 @@
   justify-content: center;
   align-items: center;
   border: 1px solid gainsboro;
-  width: 30%;
-  height: 500px;
+  width: 28%;
+  height: 450px;
   margin: 0% auto;
   margin-top: 150px;
   border-radius: 10px; }
+  @media screen and (max-width: 1500px) {
+    .container {
+      width: 550px; } }
+  @media screen and (max-width: 1024px) {
+    .container {
+      width: 500px; } }
+  @media screen and (max-width: 540px) {
+    .container {
+      width: 400px; } }
+  @media screen and (max-width: 500px) {
+    .container {
+      width: 350px; } }
+  @media screen and (max-width: 550px) {
+    .container {
+      border: none; } }
 
 .log {
   display: flex;
@@ -48,6 +63,15 @@
   .input__inp {
     width: 350px;
     height: 50px; }
+    @media screen and (max-width: 540px) {
+      .input__inp {
+        width: 250px; } }
+    @media screen and (max-width: 414px) {
+      .input__inp {
+        width: 200px; } }
+    @media screen and (max-width: 320px) {
+      .input__inp {
+        width: 180px; } }
 
 .input-text {
   padding-top: 10px; }
@@ -106,9 +130,33 @@
 .contet {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 100px; }
+  grid-gap: 120px; }
+  @media screen and (max-width: 550px) {
+    .contet {
+      gap: 80px; } }
+  @media screen and (max-width: 540px) {
+    .contet {
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 50px; } }
+  @media screen and (max-width: 414px) {
+    .contet {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 50px; } }
 
 .links {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px; }
+
+.lin {
+  font-family: sans-serif;
+  color: grey;
+  font-size: 13px; }
+
+.select {
+  font-size: 13px;
+  color: grey; }
+
+.option {
+  font-size: 13px;
+  color: grey; }
