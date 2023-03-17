@@ -95,3 +95,20 @@
   font-weight: bold;
   color: blue;
   text-decoration: none; }
+
+.section-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px; }
+
+.contet {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 100px; }
+
+.links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px; }
