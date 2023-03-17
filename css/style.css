@@ -57,3 +57,17 @@
     font-family: sans-serif;
     font-size: 15px;
     font-weight: bold; }
+
+.para-text {
+  padding-top: 40px;
+  padding-bottom: 30px; }
+  .para-text__text {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: grey;
+    font-weight: bold; }
+  .para-text__link {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none; }
