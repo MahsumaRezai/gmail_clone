@@ -1,0 +1,78 @@
+// button section 
+.button {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 190px;
+    justify-content: space-between;
+}
+.btn {
+    width: 80px;
+    height: 30px;
+    background: #1a73e8;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: none;
+}
+.link{
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #1a73e8;
+    text-decoration: none;
+
+}
+// section two 
+.section-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px
+}
+.contet {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 120px;
+    @media screen  and (max-width:550px){
+        gap: 80px;
+        
+    }
+    @media screen and(max-width:540px) {
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 50px;
+
+          
+            
+        }
+    @media screen  and (max-width:414px){
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 50px;
+       
+        
+        
+    }
+
+}
+.links {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+.lin {
+    font-family: sans-serif;
+    color: grey;
+    font-size: 13px;
+}
+.select {
+    font-size: 13px;
+    color: grey;  
+  
+}
+.option {
+    font-size: 13px;
+    color: grey;
+
+}
